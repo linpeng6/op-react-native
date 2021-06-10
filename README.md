@@ -24,7 +24,14 @@ Text,Image,View,Button等
 ## 6.导航器
 react-native-navigation
 
+## 7.自适应
+pxTodp = (px) => {
+    return px * ScreenWidth / uiWidth;   //ScreenWidth屏幕宽度 uiWidth ui宽度
+}
 
-
-
+## 8.常用第三方库
+react-native-pdf
+react-native-webview
+react-native-gesture-handler
+...
 
