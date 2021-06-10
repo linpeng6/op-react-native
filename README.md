@@ -9,6 +9,8 @@ https://www.react-native.cn/
 ## 2.访问网络
 使用fetch API
 还可以使用axios等第三方库
+目前项目中使用公司封装fetch
+使用axios时发现在app中上传图片会导致图片体积变大,目前还未找到具体原因,暂时放弃使用
 
 ## 3.长列表
 FlatList,SectionList
